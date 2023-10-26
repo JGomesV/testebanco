@@ -1,5 +1,5 @@
 import { Request, Response, Router } from 'express';
-import User from '../models/User';
+import User from '../models/userSchema';
 const express = require('express')
 const routes = express.Router()
 
